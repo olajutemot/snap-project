@@ -27,12 +27,13 @@
   </head>
   <body>
     <div>
-      <img src="./images/logo.svg" width="60px" alt="" />
+      <!-- You can use a header tag instead of div here, its more semantic like that way -->
+      <img src="./images/logo.svg" width="60px" alt="" style="border : 2px solid red"/>
       <nav class="nav-1">
         <a>Features</a>
-        <img src="./images/icon-arrow-down.svg" width="8px"/>
+        <img src="./images/icon-arrow-down.svg" width="8px" />
         <a>Company</a>
-        <img src="./images/icon-arrow-down.svg" width="8px"/>
+        <img src="./images/icon-arrow-down.svg" width="8px" />
         <a>Careers</a>
         <a>About</a>
       </nav>
@@ -41,7 +42,9 @@
         <a id="Register">Register</a>
       </nav>
     </div>
-    <herosection>
+    <section class="herosection">
+      <!-- There is no such element as herosection, instead of saying <herosection></herosection>
+      you can create a open a section tag and give it a class of herosection just like I have done earlier -->
       <text-area>
         <h1>
           Make <br />
@@ -53,16 +56,18 @@
           watch productivity soar.
         </p>
         <a class="CTA"> Learn more</a>
-        <iconsection>
+        <section>
+          <!-- No html element such as iconsection-->
           <img src="./images/client-databiz.svg" width="50px" alt="" />
           <img src="./images/client-audiophile.svg" width="50px" alt="" />
           <img src="./images/client-meet.svg" width="50px" alt="" />
           <img src="./images/client-maker.svg" width="50px" alt="" />
-        </iconsection>
+        </section>
       </text-area>
       <imagearea>
+        <!-- so html element such as imagearea, you can make it a section instead and give it an appropiate class -->
         <img src="./images/image-hero-desktop.png" width="350px" alt="" />
       </imagearea>
-    </herosection>
+    </section>
   </body>
 </html>

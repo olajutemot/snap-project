@@ -19,6 +19,7 @@ img[src*="logo"] {
 .nav-1 {
   width: 300px;
   margin-right: 550px;
+  border: 2px solid red;
 }
 img[src*="icon-arrow"] {
   height: 5px;
@@ -36,10 +37,12 @@ img[src*="icon-arrow"] {
   padding: 5px 10px;
   margin-top: -5px;
 }
-herosection {
+/* corrrected */
+.herosection {
   display: flex;
   justify-content: space-around;
   height: 500px;
+  border: 2px solid red;
 }
 text-area {
   display: flex;
@@ -66,7 +69,8 @@ p {
   border-radius: 10px;
   padding: 10px 20px;
 }
-iconsection {
+/* corrected */
+.iconsection {
   display: flex;
   width: 300px;
   justify-content: space-between;
