@@ -19,7 +19,7 @@ img[src*="logo"] {
 .nav-1 {
   width: 300px;
   margin-right: 550px;
-  border: 2px solid red;
+
 }
 img[src*="icon-arrow"] {
   height: 5px;
@@ -42,7 +42,7 @@ img[src*="icon-arrow"] {
   display: flex;
   justify-content: space-around;
   height: 500px;
-  border: 2px solid red;
+
 }
 text-area {
   display: flex;
@@ -79,4 +79,16 @@ p {
 imagearea {
   display: flex;
   align-items: end;
+}
+img[src*=menu]{
+  display: none;
+}
+/* Media query */
+@media screen and (max-width: 760px) {
+ .nav-1,.nav-2{
+  display: none;
+ }
+ img[src*=menu]{
+  display: block;
+}
 }
